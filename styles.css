@@ -1,3 +1,18 @@
+
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 80%;
+    margin: auto;
+    background: antiquewhite;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
 .spartan {
     font-family: 'Spartan', sans-serif;
 
