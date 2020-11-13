@@ -20,7 +20,7 @@
 
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 450px;
 
 }
@@ -39,6 +39,7 @@
 .rating-container {
   size: 600px;
   display: flex;
+  flex-direction: row;
 }
 
 .ratings {
