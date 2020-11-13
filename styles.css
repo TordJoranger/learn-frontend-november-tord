@@ -82,8 +82,8 @@ h1 {
 
 .profiles {
     display: flex;
-    flex-direction: row;
-    border-radius: 10%;
+    background-color: hsl(303, 10%, 53%);
+    border-radius: 8px;
 }
 
 
