@@ -9,7 +9,7 @@
 }
 
 #top-row {
-    background: cadetblue;
+    background: rgb(235, 240, 239);
     display: flex;
     flex-direction: row;
 }
