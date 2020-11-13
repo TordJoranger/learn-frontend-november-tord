@@ -8,6 +8,12 @@
     flex-direction: column;
 }
 
+#top-row {
+    background: cadetblue;
+    display: flex;
+    flex-direction: row;
+}
+
 .wrapper {
     display: flex;
     flex-flow: row wrap;
