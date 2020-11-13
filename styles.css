@@ -76,6 +76,10 @@ h1 {
     margin-top: 1em;
 } 
 
+.profiles {
+    border-radius: 10%;
+}
+
 
 .wrapper {
     display: grid;
