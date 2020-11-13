@@ -6,6 +6,11 @@
     color: hsl(300, 43%, 22%);;
 }
 
+body {
+ background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+  size: 1440px;
+}
+
 #main {
     display: flex;
     max-width: 80%;
