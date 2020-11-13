@@ -1,4 +1,8 @@
 
+* {
+    font-family: "Spartan", sans-serif;
+}
+
 #main {
     display: flex;
     flex-flow: row wrap;
@@ -34,8 +38,14 @@
 }
 
 .wrapper {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    justify-items: center;
+    background: no-repeat url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/grid.png);
+    grid-gap: 10px;
+    grid-template-columns:  repeat(6, 150px);
+    grid-template-rows: repeat( 4, 150px);
+    background-color: #fff;
+    color: #444;
   }
 
 .spartan {
