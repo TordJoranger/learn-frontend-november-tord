@@ -21,7 +21,6 @@ body {
 }
 
 #top-row {
-    background: rgb(235, 240, 239);
     display: flex;
     flex-direction: row;
 }
