@@ -76,6 +76,11 @@ h1 {
     margin-top: 1em;
 } 
 
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
 .profiles {
     border-radius: 10%;
 }
