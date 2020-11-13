@@ -1,14 +1,15 @@
 
 * {
     font-family: "Spartan", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);;
 }
 
 #main {
     display: flex;
-    flex-flow: row wrap;
     max-width: 80%;
     margin: auto;
-    background: antiquewhite;
     flex-direction: column;
 }
 
