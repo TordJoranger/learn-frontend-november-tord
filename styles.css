@@ -14,7 +14,15 @@
     flex-direction: row;
 }
 
-#header {
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+}
+
+.text {
+
     display: inline-block;
     font-family: Spartan;
     font-weight: bold;
@@ -22,6 +30,7 @@
     display: inline-block;
     line-height: 50px;
     height: 150px;
+
 }
 
 .wrapper {
