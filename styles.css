@@ -37,15 +37,19 @@
 
 }
 .rating-container {
-  size: 600px;
-  display: flex;
-  flex-direction: column;
+    flex-basis: 50%;
+    margin-left: auto;
 }
 
 .ratings {
-    border-style: hidden;
-    background-color:hsl(300, 24%, 96%);
-    padding: 25px;
+    background: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    width: 444px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 } 
 
 
