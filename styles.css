@@ -37,6 +37,12 @@
 
 }
 
+.ratings {
+    border-style: hidden;
+    background-color: hsl(333, 80%, 67%);
+    padding: 3px;
+} 
+
 .wrapper {
     display: grid;
     justify-items: center;
