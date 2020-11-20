@@ -35,10 +35,10 @@
 
 <body>
   <div id="main">
-    <section id="top-row">
+    <section id="top-row" class="text">
       <div class="header">
         <h1>10,000+ of our users love our products.</h1>
-        <span class = ingress>
+        <span class=ingress>
           We only provide great products combined with excellent customer service.
           See what our satisfied customers are saying about our services.
         </span>
@@ -51,7 +51,7 @@
           <img src="./images/icon-star.svg">
           <img src="./images/icon-star.svg">
           <img src="./images/icon-star.svg">
-         &nbsp;Rated 5 Stars in Reviews
+          &nbsp;Rated 5 Stars in Reviews
         </span>
         <span class="ratings">
           <img src="./images/icon-star.svg">
@@ -73,39 +73,55 @@
 
     <section class="bottom-row">
 
-      <div class="profiles">
-        <img src="./images/image-colton.jpg" style="border-radius: 50%;">
-        Colton Smith
-        Verified Buyer
-        "We needed the same printed design as the one we had ordered a week prior.
-        Not only did they find the original order, but we also received it in time.
-        Excellent!"
+      <div class="profiles" style="align-self: flex-start; justify-self: start;">
+        <div class="person">
+          <img src="./images/image-colton.jpg" style="border-radius: 50%;">
+          <div class="personName">
+            Colton Smith
+            <label style="color: hsl(333, 80%, 67%);">Verified Buyer</label>  
+          </div>
+        </div>
+        <div class = "person-text">
+          "We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"
+        </div>
+    
       </div>
 
-      <div  class = "profiles">
-        <img src="./images/image-irene.jpg" style="border-radius: 50%;">
-        Irene Roberts
-        Verified Buyer
-        "Customer service is always excellent and very quick turn around. Completely
-        delighted with the simplicity of the purchase and the speed of delivery."
+      <div class="profiles" style="align-self: center;">
+        <div class="person">
+          <img src="./images/image-irene.jpg" style="border-radius: 50%;">
+          <div class="personName">
+            Irene Roberts 
+            <label style="color: hsl(333, 80%, 67%);">Verified Buyer</label>  
+            
+          </div>
+        </div>
+        <div class="person-text">
+          "Customer service is always excellent and very quick turn around. Completely
+          delighted with the simplicity of the purchase and the speed of delivery."
+        </div>
 
       </div>
 
-
-      <div class = "profiles" >
-        <img src="./images/image-anne.jpg" style="border-radius: 50%;">
-        Anne Wallace
-        Verified Buyer
-        "Put an order with this company and can only praise them for the very high
-        standard. Will definitely use them again and recommend them to everyone!"
+      <div class="profiles" style="align-self: flex-end; justify-content:flex-end;">
+        <div class="person">
+          <img src="./images/image-anne.jpg" style="border-radius: 50%;">
+          <div class="personName">
+            Anne Wallace
+            <label style="color: hsl(333, 80%, 67%);">Verified Buyer</label>  
+          </div>
+        </div>
+        <div class="person-text">
+          "Put an order with this company and can only praise them for the very high
+          standard. Will definitely use them again and recommend them to everyone!"
+        </div>
 
       </div>
 
     </section>
-
     <br>
-
-
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
